@@ -57,7 +57,7 @@ export const paymentResponse = (request, response) => {
 
                     post_res.on('end', function () {
                         let result = JSON.parse(res)
-                        response.redirect(`http://localhost:3000/`)
+                        response.redirect(`https://flipkart-clone1.herokuapp.com/`)
                     });
                 });
                 post_req.write(post_data);
