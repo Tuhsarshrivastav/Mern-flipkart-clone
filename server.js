@@ -16,9 +16,6 @@ if (process.env.NODE_ENV === "production") {
 
 const PORT = process.env.PORT || 8000;
 
-Connection(username, password);
-
-
 app.listen(PORT, () =>
   console.log(`Server is running successfully on PORT ${PORT}`)
 );
